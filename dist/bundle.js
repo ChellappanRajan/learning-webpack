@@ -1,0 +1,1 @@
+(()=>{"use strict";console.log("Nav Component"),console.log("Nav Component")})();
