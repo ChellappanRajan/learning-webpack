@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "webpack-dev-server": "webpack-dev-server",
-    "dev": "npm run webpack-dev-server -- --mode development"
+    "dev": "npm run webpack-dev-server -- --env mode=development"
   },
   "author": "",
   "license": "ISC",
@@ -16,5 +16,8 @@
     "webpack-cli": "^4.8.0",
     "webpack-dev-server": "^4.3.0",
     "webpack-html-plugin": "^0.1.1"
+  },
+  "dependencies": {
+    "webpack-merge": "^5.8.0"
   }
 }
